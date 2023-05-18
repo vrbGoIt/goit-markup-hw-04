@@ -239,11 +239,22 @@ img {
     gap: 24px;
 }
 
+.quality_logo {
+    /* width: 264px;
+    height: 112px; */
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: center;
+    background: #F4F4FD;
+    border-radius: 4px;
+}
+
 .quality-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .quality-name {
+    margin-top: 8px;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
