@@ -63,6 +63,12 @@ img {
     color: var(--logo-accent-color);
 }
 
+.footer-content {
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
 .logo-ligth {
     color: var(--cloud);
 }
@@ -77,7 +83,7 @@ img {
 }
 
 .media-block {
-    padding-left: 120px;
+
 }
 
 .media-header {
@@ -133,7 +139,7 @@ img {
 }
 
 .logo {
-    margin-right: 76px;
+    /* margin-right: 76px; */
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
