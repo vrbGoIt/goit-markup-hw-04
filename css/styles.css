@@ -129,7 +129,7 @@ img {
 
 .link-propety:hover,
 .link-propety:focus {
-    background-color: var(--link-hover);
+    background-color: var(--link-hover-color);
 }
 
 .link {
@@ -395,8 +395,8 @@ img {
     align-items: center;
     color: var(--grey);
 
-    border: 1px solid var(--grey);
-    border-radius: 4px;
+    /* border: 1px solid var(--grey);
+    border-radius: 4px; */
 }
 
 .link-customer:hover,
