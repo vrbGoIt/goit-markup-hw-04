@@ -412,6 +412,10 @@ img {
     border-radius: 4px;
 }
 
+.customer-list_icon {
+    fill: currentColor;
+}
+
 .filter_button {
     padding: 12px 24px;
     font-family: 'Roboto', sans-serif;
