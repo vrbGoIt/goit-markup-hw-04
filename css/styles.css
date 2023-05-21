@@ -28,7 +28,6 @@ ul {
     --cloud: #f4f4fd;
     --link-hover: #31d0aa;
     --grey: #8e8f99;
-
 }
 
 body {
@@ -63,6 +62,8 @@ img {
 }
 
 .footer {
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 100px 0;
     background-color: var(--navy-blue);
     color: var(--logo-accent-color);
@@ -317,6 +318,8 @@ img {
 
 .our-team {
     background-color: var(--cloud);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .our-team-header {
@@ -394,7 +397,6 @@ img {
 
     border: 1px solid var(--grey);
     border-radius: 4px;
-
 }
 
 .link-customer:hover,
