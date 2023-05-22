@@ -134,7 +134,7 @@ img {
 
 .link-propety:hover,
 .link-propety:focus {
-    background-color: var(--link-hover-color);
+    background-color: var(--link-hover);
 }
 
 .link {
