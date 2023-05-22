@@ -63,7 +63,7 @@ img {
 }
 
 .footer {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
     padding: 100px 0;
     background-color: var(--navy-blue);
@@ -323,7 +323,7 @@ img {
 
 .our-team {
     background-color: var(--cloud);
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
 }
 
@@ -415,9 +415,6 @@ img {
 .customer-item {
     width: calc((100% - 5 * 24px) / 6);
     height: 88px;
-    justify-content: center;
-    /* border: 1px solid #8e8f99;
-    border-radius: 4px; */
 }
 
 .customer-list_icon {
