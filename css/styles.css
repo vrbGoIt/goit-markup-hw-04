@@ -424,6 +424,10 @@ img {
     fill: currentColor;
 }
 
+.footer-list_icon {
+    fill: var(--fill-media);
+}
+
 .filter_button {
     padding: 12px 24px;
     font-family: 'Roboto', sans-serif;
