@@ -413,6 +413,7 @@ img {
 }
 
 .customer-item {
+    box-sizing: border-box;
     width: calc((100% - 5 * 24px) / 6);
     height: 88px;
     justify-content: center;
