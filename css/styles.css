@@ -73,12 +73,15 @@ img {
 .footer-content {
     display: flex;
     align-items: baseline;
-    gap: 120px; 
-    margin-right: 120px;
+    /* gap: 120px;  */
 }
 
 .logo-ligth {
     color: var(--cloud);
+}
+
+.logo-block {
+    margin-right: 120px;
 }
 
 .footer-text {
