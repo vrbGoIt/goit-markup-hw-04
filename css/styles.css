@@ -73,7 +73,7 @@ img {
 .footer-content {
     display: flex;
     align-items: baseline;
-    /* gap: 120px; */
+    gap: 120px; 
     margin-right: 120px;
 }
 
