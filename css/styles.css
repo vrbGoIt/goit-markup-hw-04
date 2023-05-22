@@ -28,6 +28,7 @@ ul {
     --cloud: #f4f4fd;
     --link-hover: #31d0aa;
     --grey: #8e8f99;
+    --fill-media: #f4f4fd;
 }
 
 body {
@@ -369,6 +370,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.team-list_icon {
+    fill: var(--fill-media);
 }
 
 .customer-header {
