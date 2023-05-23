@@ -189,6 +189,11 @@ img {
     padding: 24px 0;
 }
 
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--link-hover-color);
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -208,6 +213,11 @@ img {
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--contact-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--link-hover-color);
 }
 
 .customer_section {
@@ -279,8 +289,8 @@ img {
 .quality_logo {
     height: 112px;
     margin-bottom: 8px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     justify-content: center;
     align-items: center;
     background: #f4f4fd;
@@ -416,6 +426,7 @@ img {
 .link-customer:focus {
     border-color: var(--link-hover-color);
     color: var(--link-hover-color);
+    fill: var(--logo-accent-color);
 }
 
 .customer-item {
@@ -425,6 +436,11 @@ img {
 
 .customer-list_icon {
     fill: currentColor;
+}
+
+.customer-list_icon:hover,
+.customer-list_icon:focus {
+    fill: var(--logo-accent-color);
 }
 
 .footer-list_icon {
